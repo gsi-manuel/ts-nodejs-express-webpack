@@ -1,0 +1,39 @@
+{
+  "name": "ts-nodejs-express-webpack",
+  "version": "0.1.0",
+  "description": "Project node-express ",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config config/webpack.config.js",
+    "start": "yarn run build && node ./dist/index.js"
+  },
+  "keywords": [
+    "typescript.",
+    "webpack",
+    "nodejs",
+    "express"
+  ],
+  "author": "gsi-manuel",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.0",
+    "@types/helmet": "^0.0.38",
+    "@types/node": "^10.3.3",
+    "@types/webpack": "^4.4.0",
+    "body-parser": "^1.18.3",
+    "ts-loader": "^4.4.1",
+    "ts-node": "^6.1.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
+  }
+}
