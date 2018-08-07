@@ -1,6 +1,6 @@
 # What is this repository for?
 
-Node.js app architecture showcase. You can start your Node.js projects building on this boilerplate.
+Node.js app architecture showcase. You can start your Node.js projects building on this boilerplate, based in API REST.
 
 # Architecture Overview
 
