@@ -19,7 +19,7 @@ module.exports = {
         // the output file name
         filename: 'index.js',
         // the output path               
-        path: path.resolve(__dirname, 'dist')
+        // path: path.resolve(__dirname, 'dist')
     },
     target: "node",
     resolve: {
