@@ -11,3 +11,5 @@ The app is designed to use a layered architecture. The architecture is heavily i
 `yarn run build` to build the project (removes the flow annotations) and then,</br>
 `npm start` to start the server.
 
+#### Example:
+`http://localhost:3000/admin/provinces`
