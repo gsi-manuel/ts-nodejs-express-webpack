@@ -68,6 +68,7 @@ export class BaseRepository implements IWrite, IRead {
     //     }
     //     this.getProvinces(params);
     //   }
+    // https://www.npmjs.com/package/mongoose-middleware
 
     public find(req: any, populate?: any, sort?: any, filters?: any): Promise<any> {
         return new Promise((resolve: any, reject: any) => {
