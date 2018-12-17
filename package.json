@@ -19,7 +19,9 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "helmet": "^3.12.1"
+    "express-graphql": "^0.7.1",
+    "helmet": "^3.12.1",
+    "type-graphql": "^0.15.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -30,8 +32,10 @@
     "@types/node": "^10.3.3",
     "@types/webpack": "^4.4.0",
     "body-parser": "^1.18.3",
+    "class-transformer": "^0.1.10",
     "mongoose": "^5.1.5",
     "mongoose-middleware": "^1.0.0",
+    "nodemon": "^1.18.5",
     "q": "^1.5.1",
     "reflect-metadata": "^0.1.12",
     "ts-loader": "^4.4.1",
