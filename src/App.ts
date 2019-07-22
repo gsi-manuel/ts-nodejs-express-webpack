@@ -2,6 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import helmet from 'helmet';
+const dotenv = require('dotenv');
 
 import { Routes } from './routes/routes';
 
@@ -20,6 +21,7 @@ class App {
     this.express.use(bodyParser.urlencoded({ extended: false }));
     this.express.use(helmet());
     this.express.use(cors());
+    dotenv.config();
   }
 }
 

@@ -1,10 +1,11 @@
 const mongoose = require( 'mongoose' );
 require('mongoose-middleware').initialize(mongoose);
+
 import { Config } from '../config/config';
 
 const config = new Config();
 const dbURI = config.getDb();
-mongoose.connect(dbURI);
+mongoose.connect(dbURI, { useNewUrlParser: true });
 
 mongoose.connection.on('connected', () => {
     console.log('Mongoose connected to ' + dbURI);

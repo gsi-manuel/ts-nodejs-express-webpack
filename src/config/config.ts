@@ -17,8 +17,8 @@ export class Config {
     private jwtSecret: string;
 
     constructor() {
-        this.db = process.env.MONGODB || 'mongodb://appnode:appnode@127.0.0.1:27017/appnode';
-        this.port = 3000;
+        this.db = process.env.MONGODB || 'mongodb://127.0.0.1:27017/appnode';
+        this.port = 3001;
         this.initPage = 1;
         this.itemsPerPage  = 10;
         this.saltFactor = 10;
